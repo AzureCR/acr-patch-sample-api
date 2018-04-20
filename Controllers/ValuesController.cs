@@ -13,7 +13,7 @@ namespace acr_patch_sample_webapi.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "hello", "geo-replication" };
+            return new string[] { "hello", "geo-replication", "eastus", "westeurope" };
         }
 
         // GET api/values/5
